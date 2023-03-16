@@ -1,0 +1,35 @@
+1.
+mkdir ИгрушкиДляШкольников
+mkdir ИгрушкиДляДошколят
+2.
+cd ИгрушкиДляШкольников
+touch Роботы.txt
+touch Конструктор.txt
+touch Настольные игры.txt
+cd
+3.
+cd ИгрушкиДляДошколят
+touch МягкиеИгрушки.txt
+touch Куклы.txt
+touch Машинки.txt
+4.
+cd
+mkdir ИмяИгрушки
+cp -rl ИгрушкиДляШкольников/*ИгрушкиДляДошколят/*ИмяИгрушки
+tree ИмяИгрушки
+rm -rf ИгрушкиДляШкольников
+rm -rf ИгрушкиДляДошколят
+5.
+mv ИмяИгрушкиигрушки
+6.
+cd ИмяИгрушки
+is -la
+7.
+sudo snap install chromium
+sudo snap remove chromium
+8.
+crontab -e
+/var/spool/cron/crontabs# cat root
+nano
+# m h  dom mon dow   command
+*/3 * * * * date > ~/date.txt

@@ -1,0 +1,3 @@
+Toy [id=1, name=Плюшевый Мишка, weight=6.0]
+Toy [id=5, name=Плюшевый заяц, weight=3.5]
+Toy [id=2, name=Робот, weight=2.0]
